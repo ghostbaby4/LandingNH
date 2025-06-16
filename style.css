@@ -285,4 +285,77 @@ html {
     margin-bottom: 8px;
 }
 /************End Services Section***********/
-/*End Services Section*/
+/************How-Section***********/
+.how-section{
+    background-color: #F0F3FA;
+}
+.how-section__title{
+    text-align: center;
+    font-size: 4rem;
+    color: #F0F3FA;
+    padding: 1rem;
+    background-color: #081b29;
+}
+.how-section__title span{
+    color: #567c8d;
+}
+.how-section__title{
+    font-size: 3rem;
+}
+.how-section .how-section__row{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+.how-section .how-section__row .how-section__video-contain{
+    flex: 1 1 40rem;
+    position: relative;
+}
+.how-section .how-section__row .how-section__video-contain video{
+    width: 100%;
+    border: 1.5rem solid;
+    border-radius: .4rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+}
+.how-section .how-section__row .how-section__content{
+    flex: 1 1 40rem;
+}
+.how-section .how-section__row .how-section__content h3{
+    font-size: 2rem;
+    color: #333;
+    margin: 2px;
+}
+.how-section .how-section__row .how-section__content p{
+    color: #333;
+    padding: 1rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.how-section__content--btn {
+    display: inline-block;
+    margin-top: 0.3rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #F0F3FA;
+    background-color: #333;
+    border: none;
+    border-radius: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.how-section__content--btn:hover {
+    background-color: #081b29;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+/************End How Section***********/
