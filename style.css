@@ -359,3 +359,54 @@ html {
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
 }
 /************End How Section***********/
+
+/************Slider Section***********/
+#cards__header{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top right, #4a709c, #081b29);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.cards__header--contain{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  font-family: 'Courier New', Courier, monospace;
+  overflow: visible;
+  color: #162447;
+}
+.cards__header--item{
+  position: absolute;
+  width: 240px;
+  height: 320px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: 0.5s ease;
+  left: 50%;
+  top: 40px;
+  transform: translateX(-50%);
+  text-align: justify;
+  opacity: 0;
+  z-index: 0;
+}
+#prev, #next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0 20px;
+}
+#prev { left: 5%; }
+#next { right: 5%; }
+/************End SLider Section***********/
