@@ -410,3 +410,113 @@ html {
 #prev { left: 5%; }
 #next { right: 5%; }
 /************End SLider Section***********/
+/************Benefits Section***********/
+.benefits__container{
+    padding: 10px;
+    margin-top: 110px;
+}
+#Benefits .benefits__container-title{
+    text-align: center;
+    font-size: 4rem;
+    color: #081b29;
+    padding: 1rem;
+}
+#Benefits .benefits__container-title span{
+    color: #485563;
+}
+#Benefits .benefits__container-title{
+    font-size: 3rem;
+}
+#Benefits .benefits__container--img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#Benefits .projects{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+#Benefits .benefits__container--header h1{ 
+    margin-bottom: 50px;
+}
+#Benefits .benefits__container--all{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+#Benefits .benefits__container--item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+#Benefits .benefits__container--info{
+    padding: 30px;
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(60deg, #081b29 0%, #162447 100%);
+    color: #ededed;
+}
+#Benefits .benefits__container--info h1{
+    font-size: 4rem;
+    font-weight: 500;
+}
+#Benefits .benefits__container--info h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 10px;
+}#Benefits .benefits__container--info p{
+    color: #ededed;
+}
+#Benefits .benefits__container--img{
+    flex-basis: 50%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+#Benefits .benefits__container--img:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+}
+#Benefits .benefits__container--img img{
+    transition: .3s ease transform;
+}
+#Benefits .benefits__container--item:hover .benefits__container--img img{
+    transform: scale(1.1);
+}
+/************Benefits Section***********/
+#Benefits .benefits__container--item{
+    flex-direction: row;
+}
+#Benefits .benefits__container--item:nth-child(even){
+    flex-direction: row-reverse;
+}
+#Benefits .benefits__container--item{
+    height: 400px;
+    margin: 0;
+    width: 100%;
+    border-radius: 0;
+}
+#Benefits .benefits__container--all .benefits__container--info{
+    height: 100%;
+}
+#Benefits .benefits__container--all .benefits__container--img{
+    height: 100%;
+}
+/************END Benefits Section***********/
