@@ -410,6 +410,7 @@ html {
 #prev { left: 5%; }
 #next { right: 5%; }
 /************End SLider Section***********/
+
 /************Benefits Section***********/
 .benefits__container{
     padding: 10px;
@@ -520,3 +521,60 @@ html {
     height: 100%;
 }
 /************END Benefits Section***********/
+
+/************Footer Section***********/
+.footer {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+.footer_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer__NH {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4a709c;
+  text-decoration: none;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.footer__menu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.footer__menu li a {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.footer__menu li a:hover {
+  color: #628ecb;
+}
+.footer__media-icons {
+  margin: 20px 0;
+}
+.footer__media-icons a {
+  color: #f0f0f0;
+  font-size: 24px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+.footer__media-icons a:hover {
+  color: #628ecb;
+}
+.footer_container p{
+  font-size: 14px;
+  color: #cccccc;
+  margin-top: 25px;
+  line-height: 1.6;
+}
+/************END Footer Section***********/
